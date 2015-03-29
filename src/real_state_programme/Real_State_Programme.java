@@ -16,6 +16,7 @@ public class Real_State_Programme {
     public static void main(String[] args) {
         
         System.out.println("Hello Welcome to Real State");
+        System.out.print("Sanoj SnaojADSDUFHSDGH");
         // TODO code application logic here
     }
 }
