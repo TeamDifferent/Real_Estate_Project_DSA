@@ -6,7 +6,7 @@ package real_state_programme;
 
 /**
  *
- * @author kavi
+ * @author kavi,menaka,sanoj,madhu,himale
  */
 public class Real_State_Programme {
 
@@ -15,9 +15,6 @@ public class Real_State_Programme {
      */
     public static void main(String[] args) {
         
-        System.out.println("Hello Welcome to Real State");
-        System.out.print("Sanoj SnaojADSDUFHSDGH");
-        System.out.println("Menaka Wijesinghe");
-        // TODO code application logic here
+        System.out.println("Sanoj");
     }
 }
