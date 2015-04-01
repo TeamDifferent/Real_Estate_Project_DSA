@@ -15,6 +15,6 @@ public class Real_State_Programme {
      */
     public static void main(String[] args) {
         
-        System.out.println("Sanoj");
+        
     }
 }
