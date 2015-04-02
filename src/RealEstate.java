@@ -288,7 +288,7 @@ private static class ActionHandler implements ActionListener{
         infoPanel.add(clear);
         infoPanel.add(find);
         contentPane.add(infoPanel);
-        displayFrame.show();
+        displayFrame.setVisible(true);
 
     }    
 }
