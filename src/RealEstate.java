@@ -87,7 +87,7 @@ private static class ActionHandler implements ActionListener{
                 else {
                     house = (ListHouse)list.getNextItem();
                     showHouse(house);
-                    lbl_show.setForeground(Color.black);
+                    lbl_show.setForeground(Color.blue);
                     lbl_show.setText("Next house displayed");
                 }
             }
@@ -100,7 +100,7 @@ private static class ActionHandler implements ActionListener{
                             lbl_show.setForeground(Color.red);
                         }
                         else {
-                            lbl_show.setForeground(Color.black);
+                            lbl_show.setForeground(Color.blue);
                             list.insert(house);
                             lbl_show.setText("Successfully added");
                         }
@@ -260,19 +260,26 @@ private static class ActionHandler implements ActionListener{
 
         infoPanel.setLayout(new GridLayout(10,2,5,5));
         infoPanel.add(lbl_show);
+        lbl_show.setForeground(Color.blue);
         infoPanel.add(blankLabel);
         infoPanel.add(lotLabel);
         infoPanel.add(txt_lot);
+        lotLabel.setForeground(Color.blue);
         infoPanel.add(firstLabel);
         infoPanel.add(txt_first);
+        firstLabel.setForeground(Color.blue);
         infoPanel.add(lastLabel);
         infoPanel.add(txt_last);
+        lastLabel.setForeground(Color.blue);
         infoPanel.add(priceLabel);
         infoPanel.add(txt_price);
+        priceLabel.setForeground(Color.blue);
         infoPanel.add(feetLabel);
         infoPanel.add(txt_feet);
+        feetLabel.setForeground(Color.blue);
         infoPanel.add(bedLabel);
         infoPanel.add(txt_bed);
+        bedLabel.setForeground(Color.blue);
         infoPanel.add(reset);
         infoPanel.add(next);
         infoPanel.add(add);
