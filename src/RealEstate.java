@@ -208,6 +208,7 @@ private static class ActionHandler implements ActionListener{
                     + "upon program termination");
                 }
                 System.exit(0); 
+                
             }
         });
 
