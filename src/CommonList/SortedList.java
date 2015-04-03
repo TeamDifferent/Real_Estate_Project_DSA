@@ -92,11 +92,11 @@ numItems++;
 public void delete (Listable item)
 
 {
-int location = 0;
-while (item.compareTo(list[location]) != 0)
-location++;
-for (int index = location + 1; index < numItems; index++)
-list[index - 1] = list[index];
-numItems--;
+    int location = 0;
+    while (item.compareTo(list[location]) != 0)
+    location++;
+    for (int index = location + 1; index < numItems; index++)
+    list[index - 1] = list[index];
+    numItems--;
 }
 }
