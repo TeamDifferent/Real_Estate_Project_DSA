@@ -7,7 +7,7 @@ package CommonList;
 
 /**
  *
- * @author kawinda,menaka,madhu,sanoj
+ * @author Kavinda, Sanoj, Menaka, Himalee, Madhu
  */
 public abstract class List {
 protected Listable[] list; 
