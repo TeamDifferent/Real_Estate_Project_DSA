@@ -8,7 +8,7 @@ package houseDetails;
 import java.io.*;
 /**
  *
- * @author DELL
+ * @author Kavinda, Sanoj, Himalee, Madhu, Menaka
  */
 public class HouseFile {
   private static BufferedReader inFile;
