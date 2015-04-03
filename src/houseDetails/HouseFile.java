@@ -22,7 +22,7 @@ public static void reset() throws IOException//Reset the file(Reading)
 {
 if (inFileOpen) inFile.close();
 if (outFileOpen) outFile.close();
-inFile = new BufferedReader(new FileReader("src/houses.dat"));
+inFile = new BufferedReader(new FileReader("src/houses.txt"));
 inFileOpen = true;
 inString = inFile.readLine();
 }
@@ -30,7 +30,7 @@ public static void rewrite() throws IOException // Reset file (writing)
 {
 if (inFileOpen) inFile.close();
 if (outFileOpen) outFile.close();
-outFile = new PrintWriter(new FileWriter("src/houses.dat"));
+outFile = new PrintWriter(new FileWriter("src/houses.txt"));
 outFileOpen = true;
 }
 public static boolean moreHouses()
