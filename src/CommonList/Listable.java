@@ -7,7 +7,7 @@ package CommonList;
 
 /**
  *
- * @author Kawinda,sanoj,madhu,himalee,menaka
+ * @author Kavinda, Sanoj, Madhu, Himalee, Menaka
  */
 public interface Listable {
     
