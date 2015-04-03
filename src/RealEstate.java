@@ -10,6 +10,7 @@
  * @author Kavinda, Sanoj, Madhu, Himalee, Menaka
  */
 
+//import packages including houseDetails
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
