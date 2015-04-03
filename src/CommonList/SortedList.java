@@ -7,7 +7,7 @@ package CommonList;
 
 /**
  *
- * @author madhu,himalee,kawinda,menaka,sanoj
+ * @author Kavinda, Sanoj, Madhu, Himalee, Menaka
  */
 public class SortedList extends List{
   public SortedList(int maxItems)
