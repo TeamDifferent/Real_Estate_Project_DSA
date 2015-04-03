@@ -6,8 +6,9 @@
 
 /**
  *
- * @author
+ * @author Kavinda, Sanoj, Madhu, Himalee, Menaka
  */
+
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -216,7 +217,7 @@ private static class ActionHandler implements ActionListener{
         JPanel infoPanel = new JPanel();
 
         lbl_show= new JLabel("", JLabel.LEFT);
-        lbl_show.setBorder(new LineBorder(Color.black));
+        lbl_show.setBorder(new LineBorder(Color.black));        
         blankLabel = new JLabel("");
         lotLabel = new JLabel("Lot Number ", JLabel.LEFT);
         txt_lot= new JTextField("", 15);
