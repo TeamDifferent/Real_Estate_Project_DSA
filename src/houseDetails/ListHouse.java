@@ -7,7 +7,7 @@ package houseDetails;
 
 /**
  *
- * @author DELL
+ * @author Kavinda, Sanoj, Menaka, Madhu, Himalee
  */
 
 import CommonList.*;
